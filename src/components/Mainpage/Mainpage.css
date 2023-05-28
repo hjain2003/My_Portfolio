@@ -1,0 +1,80 @@
+*{
+    padding: 0rem;
+    margin: 0rem;
+}
+@font-face {
+    font-family: sfmono;
+    src: url('../../fonts/SFMono-Medium.otf');
+}
+@font-face {
+    font-family: sfmono_heavy;
+    src: url('../../fonts/SFMono-Heavy.otf');
+}
+html{
+    font-size: 62.5%;
+}
+.main_page_container{
+    font-family: 'sfmono';
+    padding-left: 5.0rem;
+    padding-right: 5.0rem;
+    /* margin-top: 30rem; */
+    padding-top: 2.0rem;
+    /* border:.2rem solid white; */
+    height:72vh;
+    /* width: 100%; */
+    font-size: 1.5rem;
+    /* display: flex; */
+    margin: auto;
+}
+.mainpage_content{
+    /* border: 2px solid white; */
+}
+.title{
+    margin-top: 8.0rem;
+    font-size: 1.5rem;
+    color: rgb(96, 247, 211);
+}
+.main_page_container h1{
+    font-size: 7.0rem;
+    font-family: 'sfmono_heavy';
+    font-weight: bold;
+    color: white;
+    text-shadow: .2rem .2rem  rgb(96, 247, 211);
+}
+.main_page_container h2{
+    font-size: 5.0rem;
+    /* font-style: italic; */
+    font-family: 'sfmono_heavy';
+    font-weight: bold;
+    color: rgb(136,146,176);
+}
+.main_page_container p{
+    color: rgb(136,146,176);
+    line-height: 2.7rem;
+}
+
+@media(max-width:523px){
+    html{
+        font-size: 55%;
+    }
+}
+@media(max-width:456px){
+    html{
+        font-size: 45%;
+    }
+}
+@media(max-width:420px){
+    .mainpage_content{
+        margin-top: 200px;
+    }
+}
+@media(max-width:380px){
+    .mainpage_content{
+        margin-top: 80px;
+    }
+}
+@media(max-width:375px){
+    .mainpage_content{
+        margin-top: 20px;
+    }
+}
