@@ -38,3 +38,69 @@
     flex-direction: row;
 }
 
+.wrapper {
+    /* outline: 1px solid gray; */
+    display: block;
+    position: relative;
+    width: 500px;
+    height: 500px;
+    margin-top: -27px;
+    margin-left: 150px;
+    overflow: hidden;
+    /* border-radius: 20px; */
+    /* background: #e5cab2; */
+  }
+  
+  .lamp {
+    content: "";
+    display: block;
+    position: relative;
+    width: 60px;
+    top: 20px;
+    left: 110px;
+    border-top: 30px solid rgb(96, 247, 211);;
+    border-bottom: 30px solid transparent;
+    border-radius: 50%;
+    z-index: 2;
+  }
+  
+  .lamp:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 2px;
+    height: 20px;
+    background: rgb(96, 247, 211);;
+    top: -50px;
+    left: 30px;
+  }
+  
+  .lamp:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 40px;
+    height: 20px;
+    top: -270px;
+    left: -150px;
+    border-top: 250px solid transparent;
+    border-bottom: 280px solid rgba(255, 255, 255, .2);
+    border-left: 160px solid transparent;
+    border-right: 160px solid transparent;
+    z-index: 1;
+  }
+  
+  @keyframes swing {
+    0% {
+      transform: rotate(-20deg);
+    }
+    100% {
+      transform: rotate(20deg);
+    }
+  }
+  
+  .swing {
+    animation: swing 1.5s infinite alternate ease-in-out;
+    transform-origin: 30px -20px;
+  }
+  

@@ -4,12 +4,14 @@ import './Work.css';
 const Work = () => {
   return (
     <>
-    <div className="work_container">
-    <span><h1>Work</h1> &nbsp;&nbsp;&nbsp;&nbsp;
+      <div className="work_container">
+        <span><h1>Work</h1> &nbsp;&nbsp;&nbsp;&nbsp;
           <hr /></span>
 
-    
-    </div>
+        <div class="wrapper">
+          <div class="lamp swing"></div>
+        </div>
+      </div>
     </>
   )
 }
