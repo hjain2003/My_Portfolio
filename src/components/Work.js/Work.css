@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: sfmono;
+    src: url('../../fonts/SFMono-Medium.otf');
+}
+@font-face {
+    font-family: sfmono_heavy;
+    src: url('../../fonts/SFMono-Heavy.otf');
+}
+.work_container{
+    height: 100vh;
+    /* background-color: antiquewhite; */
+    padding-left: 50px;
+    font-family: 'sfmono';
+}
+
+.work_container h1{
+    font-family: 'sfmono_heavy';
+    font-size: 50px;
+    color: rgb(136,146,176);
+}
+.work_container hr{
+    margin-top: 30px;
+    color: rgb(136,146,176);
+    background-color: rgb(136,146,176);
+    border: 0.5px solid  rgb(136,146,176);
+    /* flex-grow: 1; */
+    width: 400px;
+    height: 1px;
+    opacity: 20%;
+}
+.work_container span{
+    display: flex;
+    flex-direction: row;
+}
+

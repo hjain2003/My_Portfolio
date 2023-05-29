@@ -2,6 +2,7 @@ import './App.css';
 import About from './components/About/About';
 import Mainpage from './components/Mainpage/Mainpage';
 import Navbar from './components/Navbar/Navbar';
+import Work from './components/Work.js/Work';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
     <Mainpage/>
     </div>
     <About/>
+    <Work/>
     </>
   );
 }
