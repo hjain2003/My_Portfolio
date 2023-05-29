@@ -46,7 +46,7 @@
     height: 500px;
     margin-top: -27px;
     margin-left: 150px;
-    overflow: hidden;
+    /* overflow: hidden; */
     /* border-radius: 20px; */
     /* background: #e5cab2; */
   }
@@ -100,7 +100,7 @@
   }
   
   .swing {
-    animation: swing 1.5s infinite alternate ease-in-out;
+    animation: swing 2s infinite alternate ease-in-out;
     transform-origin: 30px -20px;
   }
   
