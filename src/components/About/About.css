@@ -1,6 +1,6 @@
 *{
-    padding:0px;
-    margin:0px;
+    padding:0rem;
+    margin:0rem;
 }
 
 @font-face {
@@ -11,17 +11,79 @@
     font-family: sfmono_heavy;
     src: url('../../fonts/SFMono-Heavy.otf');
 }
-
+html{
+    font-size:62.5%;
+}
 .about_container{
     font-family: 'sfmono';
-    border: 2px solid white;
+    /* border: 2rem solid white; */
     height: 100vh;
     /* width: 100%; */
-    padding-top: 50px;
-    padding-left: 50px;
+    /* padding-top: 100rem; */
+    padding-left: 5.0rem;
 }
 .about_container h1{
     font-family: 'sfmono_heavy';
-    font-size: 50px;
+    font-size: 5.0rem;
     color: rgb(136,146,176);
 }
+.about_heading_hr{
+    /* display: flex; */
+    /* flex-direction: row; */
+}
+.about_container hr{
+    margin-top: 3.0rem;
+    color: rgb(136,146,176);
+    background-color: rgb(136,146,176);
+    border: 0.05rem solid  rgb(136,146,176);
+    /* flex-grow: 1; */
+    width: 40.0rem;
+    height: .1rem;
+    opacity: 20%;
+}
+.about_container span{
+    display: flex;
+    flex-direction: row;
+}
+
+.AboutContent_pic{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2.0rem;
+    /* padding-left: 50rem; */
+    /* padding-right: 50rem; */
+}
+.abt_content{
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+    color: rgb(136,146,176);
+}
+.abt_pic img{
+    height:30.0rem;
+    width:25.0rem;
+    margin-left: 5.0rem;
+    border-radius: 2.0rem;
+    box-shadow: 1.0rem 1.0rem rgb(96, 247, 211);
+    border: .2rem solid white;
+}
+
+
+@media(max-width:894px){
+    .AboutContent_pic{
+        flex-direction: column;
+        /* justify-content: center; */
+        /* align-items: center; */
+    }
+    .abt_pic img{
+        /* margin: auto; */
+        margin-top: 30px;
+    }
+    .abt_pic{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+

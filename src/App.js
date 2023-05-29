@@ -6,8 +6,10 @@ import Navbar from './components/Navbar/Navbar';
 function App() {
   return (
     <>
+    <div id="landing_page">
     <Navbar/>
     <Mainpage/>
+    </div>
     <About/>
     </>
   );
