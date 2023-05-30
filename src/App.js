@@ -1,5 +1,6 @@
 import './App.css';
 import About from './components/About/About';
+import Card from './components/Card/Card';
 import Mainpage from './components/Mainpage/Mainpage';
 import Navbar from './components/Navbar/Navbar';
 import Work from './components/Work.js/Work';
@@ -13,6 +14,7 @@ function App() {
     </div>
     <About/>
     <Work/>
+    <Card/>
     </>
   );
 }

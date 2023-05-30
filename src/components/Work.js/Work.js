@@ -12,6 +12,12 @@ const Work = () => {
           <div class="lamp swing"></div>
         </div>
       </div>
+
+      <div className="card_space">
+        <div className="row">
+
+        </div>
+      </div>
     </>
   )
 }
