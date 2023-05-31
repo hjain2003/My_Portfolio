@@ -17,6 +17,8 @@ const Work = (props) => {
       <div className="card_space">
         <div className="row">
           <Card project_name="Smart Attendance System" description="An attendance system based on facial recognition"/>
+          <Card project_name="Refugee Aid Manager" description="An app made for refugees consisting of various features like location displayer, legal rights section, housing info, employement section and crowdfunding section based on blockchain"/>
+          <Card project_name="Smart Attendance System" description="An attendance system based on facial recognition"/>
         </div>
       </div>
     </>
