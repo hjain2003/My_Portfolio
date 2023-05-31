@@ -1,7 +1,8 @@
 import React from 'react';
 import './Work.css';
+import Card from '../Card/Card';
 
-const Work = () => {
+const Work = (props) => {
   return (
     <>
       <div className="work_container">
@@ -15,7 +16,7 @@ const Work = () => {
 
       <div className="card_space">
         <div className="row">
-
+          <Card project_name="Smart Attendance System" description="An attendance system based on facial recognition"/>
         </div>
       </div>
     </>

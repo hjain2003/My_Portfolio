@@ -6,7 +6,7 @@ import 'react-creative-cursor/dist/styles.css';
 const Mainpage = () => {
   return (
     <>
-    <Cursor isGelly={true} />
+    {/* <Cursor isGelly={true} /> */}
       <div className="main_page_container" data-cursor-size="40px" data-cursor-color="#61dbfb" >
         <div className="mainpage_content">
           <span className='title'>Hello! I am</span>

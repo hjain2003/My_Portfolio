@@ -1,18 +1,18 @@
 import React from 'react'
 import './Card.css';
 
-const Card = () => {
+const Card = (props) => {
   return (
-    <div className='outer_box'>
-        <div id="img_container">
+    <>
+      <div className="outer_box">
+        <div className="card_title"><h2>{props.project_name}</h2></div>
+        <p>{props.description}</p>
+
+        <div className="github_link">
+          GITHUB
         </div>
-        <div id="heading">
-        </div>
-        <div id="content">
-        </div>
-        <div id="links">
-        </div>
-    </div>
+      </div>
+    </>
   )
 }
 

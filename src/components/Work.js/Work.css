@@ -108,10 +108,11 @@
   .card_space{
     display: flex;
     flex-direction: column;
-    border:2px solid white;
+    /* border:2px solid white; */
     /* height: 200px; */
-    margin-top: -410px;
+    margin-top: -470px;
     z-index:1000;
+    padding-left: 50px;
     /* background-color: aqua; */
   }
   .row{

@@ -14,7 +14,7 @@ function App() {
     </div>
     <About/>
     <Work/>
-    <Card/>
+    {/* <Card/> */}
     </>
   );
 }

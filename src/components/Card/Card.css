@@ -1,12 +1,66 @@
+@font-face {
+    font-family: sfmono;
+    src: url('../../fonts/SFMono-Medium.otf');
+}
+@font-face {
+    font-family: sfmono_heavy;
+    src: url('../../fonts/SFMono-Heavy.otf');
+}
+
 .outer_box{
+    height:250px;
+    width: 350px;
+    border: 5px solid  rgb(96, 247, 211);
+    color:  rgb(136,146,176);
+    font-family: 'sfmono';
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    /* background-color: black; */
+}
+.card_title{
     border: 2px solid white;
-    height:350px;
-    width:300px;
-    border-top-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    width:370px;
+    text-align: center;
+    background-color: rgb(96, 247, 211) ;
+    display: block;
+    /* visibility: hidden; */
 }
-#img_container{
-    height:175px;
-    width:300px;
-    border:2px solid greenyellow;
+.outer_box h2{
+    font-family:'sfmono_heavy';
+    /* color:  rgb(96, 247, 211); */
+    color: rgb(19, 25, 43);
+    font-size: 20px;
+    /* margin-top: 50px; */
 }
+.outer_box p{
+    /* visibility: hidden; */
+    margin-top: 30px;
+    font-size: 18px;
+    text-align: center;
+}
+.github_link{
+    z-index: 1000;
+    font-size: 18px;
+    /* margin-top: -10px; */
+    border: 1px solid rgb(96, 247, 211) ;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    opacity: 0;
+    transition: 0.6s;
+}
+.github_link:hover{
+    opacity: 1;
+}
+/* .outer_box:hover{
+    opacity: 0;
+} */
